@@ -5,7 +5,12 @@ Created on Tue Feb 11 14:51:10 2020
 @author: Shreyans
 """
 import random 
+import nltk
+nltk.download('gutenberg')
+nltk.download('brown')
+nltk.download('mac_morpho')
 from nltk.corpus import mac_morpho, brown, gutenberg
+
 
 
     
